@@ -76,7 +76,7 @@ Adafruit_GC9A01A tft(TFT_CS, TFT_DC, TFT_RST);
 #define BRIGHTNESS          30
 #define OBSTACLE_CHANCE     100     // 100% = no gaps
 #define COLOR_EMPTY         3
-#define MUZZLE_LED          2       // LEDs 0-2 reserved for clamping, LED 3 = gun
+#define MUZZLE_LED          2       // Muzzle LED Offset
 #define GAME_LEDS           (LEDS_COUNT - MUZZLE_LED)  // usable game positions
 
 const CRGB OBSTACLE_COLORS[] = { CRGB::Red, CRGB::Green, CRGB::Blue, CRGB::Black };
