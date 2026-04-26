@@ -1,4 +1,5 @@
 HARDWARE USED:
+
 PRNG_FULL_External_MCP3202.zip - CMOD A7 35T, MCP3202 ADC Board
 
 PRNG_Internal_Fixed_Seed.zip - CMOD A7 35T
@@ -6,6 +7,7 @@ PRNG_Internal_Fixed_Seed.zip - CMOD A7 35T
 led_shooter_game.ino - ESP32S3 WVROOM, Mechanical Keyboard Switch, GF1002 amplifier, 4ohm/0.5W speaker, TFT display (GC9A01A round 240x240), EC56 Rotary Encoder, WS2812B LED Strip (33 LED in Parallel)
 
 Circuit Wiring Diagram in IEEE report.
+
 
 CMOD A7 35T upload instructions:
 In order to run the files in vivado properly, ensure that the files are in .v format. 
